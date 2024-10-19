@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(197, 43%, 65%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator  {
+    background-color: rgba(75, 96, 121, 0.671);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid rgb(43, 157, 202);
+}
+.btn {
+    border: 5px solid rgba(5, 197, 223, 0.459);
+}
+.btn button {
+    border: 0;
+    outline: 0;
+    width: 80px;
+    margin: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 5px 5px 7px hsl(190, 61%, 70%);
+    color: white; 
+    font-size: 40px;
+}
+.display {
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    margin-bottom: 20px;
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.header {
+    background-color: rgb(30, 133, 223);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.btn .operator {
+    color: black;
+    font-size: 40px;
+}
+.btn .equal {
+    width: 180px;
+}
+@media(min-width:500px) and (max-width:550px){
+    .header {
+    font-size: 25px;
+        padding: 6px ;
+        width: 85%;
+        margin: auto;
+   }
+    .display{
+       width: 85%;
+        margin-left: 34px;
+        margin-top: 10px;
+    }
+    .btn .operator {
+    font-size: 30px;
+   }
+    .btn button {
+    border: 0;
+    outline: 0;
+    width: 80px;
+     margin: 6px;
+    font-size: 30px;
+}
+    .calculator{
+        padding: 15px 0px;
+         border: 8px solid rgb(43, 157, 202);
+
+    }
+    .btn{
+        text-align: center;
+        padding: 7px ;
+        width: 85%;
+        margin: auto;
+    }
+    .btn button {
+    width: 70px;
+     margin: 7px;
+    }
+    .btn .operator {
+    width: 70px;       
+}
+    .btn .equal {
+    width: 150px;
+}  
+}
+@media (min-width:400px) and (max-width:499px){
+.calculator  {
+    padding:15px 0px;
+     border: 6px solid rgb(43, 157, 202);
+}
+.btn {
+    border: 4px solid rgba(5, 197, 223, 0.459);
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 5px 0px;
+}
+.btn button {
+    margin: 4px;
+    font-size: 20px;
+    padding: 5px ;;
+    width: 60px;
+}
+.display {
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+.header {
+    background-color: rgb(30, 133, 223);
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    margin:15px auto;
+}
+.btn .operator {
+    color: black;
+    font-size: 20px;
+}
+.btn .equal {
+    width: 130px;
+}
+ }
+@media(max-width:399px){
+.calculator  {
+    padding:15px 0px;
+     border: 6px solid rgb(43, 157, 202);
+    width: 90%;
+}
+.btn {
+    border: 4px solid rgba(5, 197, 223, 0.459);
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 5px 0px;
+}
+.btn button {
+    margin: 4px;
+    font-size: 20px;
+    padding: 5px ;;
+    width: 40px;
+}
+.display {
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+.header {
+    background-color: rgb(30, 133, 223);
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    margin:15px auto;
+}
+.btn .operator {
+    color: black;
+    font-size: 20px;
+}
+.btn .equal {
+    width: 95px;
+}       
+ }
+
+
+
+
